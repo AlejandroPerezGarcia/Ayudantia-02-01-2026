@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.fruta-grid {
+    display: grid;
+    place-items: center; /* Esto centra a la imagen dentro del div */
+    height: 300px;       /* Opcional: para notar el centrado vertical */
+    border: 1px solid #ccc;
+}
+
+.fruta-grid img {
+    width: 400px; /* La imagen solo mantiene su tamaño */
+}
+
+ul {
+  display: flex;
+  list-style: none; /* Quita los puntos por completo */
+  gap: 20px;       /* Espacio entre los elementos */
+  padding: 0;
+}
+
+li {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li:hover {
+  background-color: #45a049; /* Efecto al pasar el mouse */
+}
+
+.frutas img {
+    display: flex;
+    
+    justify-self: center;
+    align-items: center;
+    width: 400px;
+}
